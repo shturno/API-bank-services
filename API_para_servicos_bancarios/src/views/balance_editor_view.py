@@ -14,6 +14,8 @@ class BalanceEditorView:
         
         response = self.__controller.edit(user_id, new_balance)
         
+        return HttpResponse(body= { "data": response }, status_code=200)
+        
     def __validate_inputs(self, new_balance: any, user_id: any) -> None:
         if not new_balance or not user_id or not isinstance(new_balance, int) or not isinstance(user_id, int):
             raise Exception("Invalid inputs")
