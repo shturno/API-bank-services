@@ -68,6 +68,8 @@ A API fornece os seguintes recursos:
         Autenticação: Requer um token JWT válido no cabeçalho da requisição.
 
 ## Author
+@shturno
 
-- name: Gabriela Alvarenga
-- contact: gabrielasalvarenga2@gmail.com
+## Contact
+
+You can contact me at [email](mailto:gabriel.dsalvarenga@gmail.com)
